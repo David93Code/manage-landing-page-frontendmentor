@@ -1,0 +1,17 @@
+#subElement1 {
+    display: flex;
+    height: 75vh;
+    background-color: yellow;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid red;
+    width: 1440px;
+
+}
+
+.text {
+    width: 250px;
+    height: 200px;
+    background-color: black;
+    flex-direction: row;
+}
