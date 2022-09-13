@@ -1,22 +1,51 @@
 .content-container {
     border: 1px solid black;
     
-  
-
 }
 .first-section-image {
+    margin-left: 5rem;
+    margin-right: 5rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .content-1 {
     border: 1px solid red;
-    width: 30%;
+    width: 35%;
     padding-top: 2rem;
+    text-align: left;
 }
 
+.content-1 h1 {
+    font-size: 3.5rem;
+
+}
+
+.content-1 p {
+    font-size: 16px;
+    margin-bottom: 3rem;
+}
 .image {
     border: 1px solid green;
-    width: 30%;
-    height: 30%;
+    width: 35%;
+}
+
+.button-2 {
+    height: 50px;
+    width: 150px;
+    border-radius: 15% / 50%;
+    background-color: hsl(12, 88%, 59%);
+    border-width: 0px;
+    padding: 0px;
+    color: white;
+    font-weight: 550;
+    box-shadow: 1px 5px 20px 1px hsl(12, 88%, 59%);
+}
+
+.button-2:hover {
+    cursor: pointer;
+}
+
+.button-2:active {
+    background-color: hsl(12, 89%, 65%);
 }
