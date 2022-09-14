@@ -9,7 +9,12 @@
     justify-content: space-around;
 }
 
-
+.said {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+}
 
 .second-section {
     /* width: 100%; */
