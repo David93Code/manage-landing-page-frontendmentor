@@ -1,0 +1,119 @@
+.content-container {
+    border: 1px solid black;
+    
+}
+.first-section-image {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.second-section {
+    /* width: 100%; */
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.content-1 {
+    border: 1px solid red;
+    width: 35%;  
+    padding-top: 2rem;
+    text-align: left;
+    
+}
+
+
+.content-2 {
+    /* border: 1px solid red; */
+    width: 35%;
+    padding-top: 2rem;
+    text-align: left;
+    /* height: 35vh; */
+    margin-bottom: 5rem;
+}
+
+.content-1 h1 {
+    font-size: 3.5rem;
+
+}
+
+h2 {
+    font-size: 2.3rem;
+    margin-right: 20%;
+}
+
+.list-text {
+    margin-left: 4.6rem;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+h3:before {
+    
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-right: 0.6em;
+    /* -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; */
+    border-radius: 27% / 50%;
+    width: 3em;
+    height: 1.6em;
+    font-weight: 900;
+    line-height: 1.6;
+    color: #FFF;
+    font-size: 1em;
+    background: #F77621;
+  }
+
+  .h3-1:before {
+    content: "01";
+    
+  }
+  .h3-2:before {
+    content: "02";
+    
+  }
+  .h3-3:before {
+    content: "03";
+    
+  }
+
+
+.content-1 p {
+    font-size: 16px;
+    margin-bottom: 3rem;
+    margin-right: 40%;
+}
+.image {
+    border: 1px solid green;
+    width: 35%;
+
+}
+
+.button-2 {
+    height: 50px;
+    width: 150px;
+    border-radius: 15% / 50%;
+    background-color: hsl(12, 88%, 59%);
+    border-width: 0px;
+    padding: 0px;
+    color: white;
+    font-weight: 550;
+    box-shadow: 1px 5px 20px 1px hsl(12, 88%, 59%);
+}
+
+.button-2:hover {
+    cursor: pointer;
+}
+
+.button-2:active {
+    background-color: hsl(12, 89%, 65%);
+}
