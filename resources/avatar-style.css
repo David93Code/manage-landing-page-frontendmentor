@@ -6,22 +6,16 @@
 }
 
 .said-section {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 3rem;
-   
+    display: grid;
+    grid-auto-flow: column;
     border: 1px solid red;
-    padding-top: 5rem; 
-    overflow-x: scroll;
-    /* overflow: auto;
-    scroll-snap-type: mandatory;
-    gap: 12px;
-    scroll-padding: 10px; */
-    
-
-
+    grid-auto-columns: 40%;
+    overflow-x: hidden;
+    padding-top: 55px;
+    cursor: pointer;  
 }
+
+
 
 .avatar-div {
     background-color:  hsl(0, 0%, 97%);
@@ -29,6 +23,7 @@
     flex-direction: column;
     align-items: center;
     margin-right: 2rem;
+    margin-bottom: 3rem;
     text-align: center;
     padding-right: 2rem;
     padding-left: 2rem;
