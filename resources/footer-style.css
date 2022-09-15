@@ -64,6 +64,16 @@ input {
     border: 1px solid red;
 }
 
+#email-error {
+    display: none;
+    color: red;
+    font-style: italic;
+    font-size: 12px;
+    padding-left: 1rem;
+}
 
-
+.email-error-input {
+    border: 2px solid red;
+    color: red;
+}
 

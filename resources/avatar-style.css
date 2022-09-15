@@ -11,8 +11,11 @@
     border: 1px solid red;
     grid-auto-columns: 40%;
     overflow-x: hidden;
-    padding-top: 55px;  
+    padding-top: 55px;
+    cursor: pointer;  
 }
+
+
 
 .avatar-div {
     background-color:  hsl(0, 0%, 97%);
