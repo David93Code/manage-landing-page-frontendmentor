@@ -70,3 +70,58 @@
 .button-3:active {
     background-color: hsl(12, 89%, 65%);
 }
+
+.said-section-mobile {
+    display: none;
+    background-color:  hsl(0, 0%, 97%);
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+@media only screen and (max-width:600px) {
+    .said-section {
+        display: none;
+    }
+
+    .said-section-mobile {
+        display: block;
+        /* max-width: 1000px;
+        position: relative;
+        margin: auto; */
+    }
+
+    .avatar-div {
+        display: none;
+    }
+
+    .avatar-div-mobile {
+        display: block;
+    }
+
+    .dot {
+        
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+      }
+
+      .dots {
+        margin-top: 0rem;
+        margin-bottom: 3.5rem;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+}
