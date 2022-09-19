@@ -1,0 +1,17 @@
+@media only screen and (max-width: 900px) {
+  .head2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+  }
+
+  .foot-list1 {
+    border: 1px solid green;
+    width: 100%;
+  }
+
+  .foot-list2 {
+    border: 1px solid blue;
+    width: 100%;
+  }
+}
