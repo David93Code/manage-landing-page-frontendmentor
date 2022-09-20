@@ -8,7 +8,6 @@
 .said-section {
   display: grid;
   grid-auto-flow: column;
-  border: 1px solid red;
   grid-auto-columns: 40%;
   overflow-x: hidden;
   padding-top: 55px;

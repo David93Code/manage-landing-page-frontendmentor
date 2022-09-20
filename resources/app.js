@@ -34,6 +34,7 @@ slider.addEventListener("mousemove", (e) => {
 
 
 
+
 document.getElementById("email").addEventListener("input", removeError);
 
 function removeError(e) {
