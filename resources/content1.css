@@ -49,18 +49,23 @@
     text-align: left;
     /* height: 35vh; */
     margin-bottom: 5rem;
+    margin-right: 6rem;
    border: 1px solid green;
+   
+}
 
+.content-2 h3 {
+    min-width: 370px;
+    border: 1px solid red;
 }
 
 .content-2 p {
     border: 1px solid blue;
-    width: 80%;
+    width: 320px;
+    line-height: 1.5rem;
+    margin-left: 3rem;
 }
 
-.h3-1 {
-    border: 1px solid black;
-}
 
 .content-1 h1 {
     font-size: 3.5rem;
@@ -102,13 +107,10 @@ h3:before {
   .test {
       display: flex;
   }
-
+/* 
   .test-span {
     margin-right: 0.6em;
-    /* -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%; */
+
     border-radius: 27% / 50%;
     width: 50px;
     height: 1.6em;
@@ -117,13 +119,13 @@ h3:before {
     color: #FFF;
     font-size: 1em;
     background: #F77621;
-    text-align: center;
-  }
+    text-align: center; 
+  }*/
 
-  /* .h3-1:before {
+  .h3-1:before {
     content: "01";
     
-  } */
+  }
   .h3-2:before {
     content: "02";
     
@@ -247,5 +249,20 @@ h3:before {
     .content-1 {
         display: flex;
         flex-direction: column;
+    }
+
+   .content-2 h3 {
+       background-color: hsl(12, 89%, 65%, 30%);
+       /* background-position: right 200px; */
+       width: 370px;
+       min-width: 40%;
+       padding-left: 1rem;
+       font-size: 17px;
+   } 
+
+    .content-2 p {
+        margin-left: 1rem;
+        width: 200px;
+        min-width: 80%;
     }
 }
