@@ -37,12 +37,13 @@
 }
 
 @media only screen and (max-width:600px) {
+
     .simplify {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
         height: 30vh;
+        width: 100%;
         background-position: top -5rem left 160%;
     }
 
