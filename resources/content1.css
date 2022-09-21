@@ -1,5 +1,7 @@
 .content-container {
     border: 1px solid black;
+    margin: 0;
+    width: 100%;
     
 }
 .first-section-image {
@@ -169,6 +171,8 @@ h3:before {
         width: 30%;
         height: 600px;
         margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
     }
 
     .image {
@@ -190,16 +194,46 @@ h3:before {
         width: 100%;
         height: 100%;
         margin-bottom: 3rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content-1 h1 {
+        margin-bottom: 2rem;
+    }
+
+    .content-1 p {
+        margin: auto;
+        margin-bottom: 2rem;
     }
 
     .image {
         width: 80%;
         height: 50%;
     }
+
+    .second-section {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+   
+
+    .manage-div h2 {
+        margin-bottom: 2rem;
+        margin-right: 0;
+    }
+
+    .content-2 {
+        width: 100%;
+      
+    }
+
 }
 
 
-/* 
+
 @media only screen and (max-width:600px) {
     .content-container {
         display: flex;
@@ -210,4 +244,4 @@ h3:before {
         display: flex;
         flex-direction: column;
     }
-} */
+}

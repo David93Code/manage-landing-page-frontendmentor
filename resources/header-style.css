@@ -1,15 +1,13 @@
+ html, body {
+   margin: 0;
+   padding: 0;
+  overflow-x: hidden;
+} 
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /* transition: ease-in-out 1s; */
-
-}
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
     width: 100%;
-
+    
     background-image: url(./images/bg-tablet-pattern.svg), url(./images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     background-size: 50rem;
@@ -30,6 +28,7 @@ header {
     padding-left: 6rem;
     padding-right: 6rem;
     padding-bottom: 3rem;
+    border: 1px solid red;
 }
 nav {
     /* border: 1px solid black; */
