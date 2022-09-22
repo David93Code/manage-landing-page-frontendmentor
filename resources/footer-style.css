@@ -19,7 +19,6 @@ footer {
   flex-direction: column;
   /* padding: 1rem 7rem; */
   align-items: center;
-  border: 1px solid red;
 }
 
 .footer-logo {
@@ -28,7 +27,6 @@ footer {
 
 .social-logos {
   margin-left: 1rem;
-  border: 1px solid green;
 }
 
 .social-logos svg {
@@ -40,7 +38,6 @@ footer {
   width: 60%;
   display: flex;
   justify-content: space-around;
-  border: 1px solid red;
 }
 
 svg {
@@ -64,7 +61,7 @@ svg:hover {
   color: white;
 }
 
-.footer-list li:hover {
+.footer-list a:hover {
   cursor: pointer;
   color: hsl(12, 88%, 59%);
 }
@@ -91,12 +88,11 @@ input {
   min-width: 200px;
   border-radius: 30px;
   padding-left: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .head3 {
   width: 30%;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -111,12 +107,10 @@ input {
 }
 
 .email-error-input {
-  border: 2px solid red;
   color: red;
 }
 
 .copy-div {
-  border: 1px solid red;
   text-align: right;
 }
 

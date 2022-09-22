@@ -37,6 +37,10 @@
   margin-bottom: 3rem;
 }
 
+.content-1 h1 {
+  font-size: 3.5rem;
+}
+
 .content-2 {
   /* border: 1px solid red; */
   width: 40%;
@@ -58,10 +62,6 @@
   width: 320px;
   line-height: 1.5rem;
   margin-left: 3rem;
-}
-
-.content-1 h1 {
-  font-size: 3.5rem;
 }
 
 h2 {
