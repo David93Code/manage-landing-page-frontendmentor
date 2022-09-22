@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./resources/tablet-footer-style.css" />
   </head>
   <body>
+  
     <!-- <img src="./resources/images/bg-simplify-section-desktop.svg" alt="">
     <img src="./resources/images/bg-simplify-section-mobile.svg" alt="">
     <img src="./resources/images/bg-tablet-pattern.svg" alt="">-->
@@ -35,6 +36,21 @@
         </ul>
       </nav>
       <button class="header-button">Get Started</button>
+      <div class="burger-icons">
+        <img class="burger" id="burger" src="./resources/images/icon-hamburger.svg" alt="" />
+        <!-- <img class="close" id="close" src="./resources/images/icon-close.svg" alt="" /> -->
+      </div>
+      <nav class="nav-mobile" id="nav-mobile">
+        <ul class="header-nav-mobile">
+          <li><a class="nav-link" href="#"> Pricing</a></li>
+          <li><a class="nav-link" href="#"> Product</a></li>
+          <li><a class="nav-link" href="#"> About us</a></li>
+          <li><a class="nav-link" href="#">Careers</a></li>
+          <li><a class="nav-link" href="#">Community</a></li>
+        </ul>
+      </nav>
+      
+      
     </header>
     <div class="content-container">
       <section class="first-section-image">
@@ -91,7 +107,7 @@
       </section>
 
       <h2 class="said">What they've said</h2>
-
+      <div class="burger-background" id="burger-background"></div>
       <section id="click" class="said-section">
         <div id="ali-div" class="avatar-div">
           <img
@@ -312,5 +328,6 @@
 
     <script src="./resources/app.js"></script>
     <script src="./resources/mobile-slider.js"></script>
+    <script src="./resources/burger-menu.js"></script>
   </body>
 </html>

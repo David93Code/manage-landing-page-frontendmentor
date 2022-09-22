@@ -209,11 +209,14 @@ h3:before {
     .content-1 p {
         margin: auto;
         margin-bottom: 2rem;
+        padding: 0px 2rem 0px 2rem;
     }
 
     .image {
-        width: 80%;
-        height: 50%;
+        width: 100%;
+        height: 60%;
+        margin: 0;
+        padding: 0;
     }
 
     .second-section {
@@ -256,8 +259,9 @@ h3:before {
        /* background-position: right 200px; */
        width: 370px;
        min-width: 40%;
-       padding-left: 1rem;
        font-size: 17px;
+       margin-left: auto;
+       border-radius: 40px 0px 0 40px;
    } 
 
     .content-2 p {

@@ -1,14 +1,13 @@
-*, *:before, *:after {
-    box-sizing: initial;
-}
 
 html, body {
    margin: 0;
    padding: 0;
-   width: 100%;
-   /* height: 100%; */
+   /* width: 100%;
+ min-height: 100%; */
+
   overflow-x: hidden;
   box-sizing: border-box;
+
 } 
 
 body {
@@ -85,4 +84,69 @@ nav ul{
 
 .header-button:active {
     background-color: hsl(12, 89%, 65%);
+}
+
+.burger {
+    display: none;
+    /* position: relative;
+    top: 1rem; */
+}
+
+.close {
+    display: none;
+}
+
+.header-nav-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    height: 300px;
+    justify-content: space-around;
+    padding: 2rem 0;
+    font-weight: bold;
+
+}
+
+.nav-mobile {
+    position: absolute;
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 500px;
+    top: 80px;
+    z-index: 3;
+    display: none;
+}
+
+.burger-background {
+    position: absolute;
+    
+    background-image: linear-gradient(rgb(0, 0, 0, 3%), rgb(0, 0, 0, 100%));
+    width: 100%;
+    height: 200%;
+    top: 0px;
+    left: 0;
+    z-index: 2;
+    display: none;
+}
+
+.burger-icons:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:1000px) {
+    .header-nav, .header-button{
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        z-index: 4;
+        position: relative;
+    }
+
+    
 }
