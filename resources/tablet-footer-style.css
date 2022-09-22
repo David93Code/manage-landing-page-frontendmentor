@@ -1,12 +1,11 @@
 @media only screen and (min-width: 600px) and (max-width: 900px) {
-
   footer {
     padding: 0;
     height: 400px;
   }
 
   .head1 {
-     padding-left: 3rem;    
+    padding-left: 3rem;
   }
 
   .head2 {
@@ -24,7 +23,6 @@
 
   .foot-list1 {
     width: 150px;
-    
   }
 
   .foot-list2 {
@@ -39,17 +37,12 @@
   .social-logos {
     width: 100%;
     display: flex;
-
     flex-wrap: wrap;
     justify-content: space-between;
+  }
 
-   
-}
-
-.social-logos a {
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-}
-
- 
+  .social-logos a {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
 }
