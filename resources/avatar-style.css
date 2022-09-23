@@ -27,6 +27,9 @@
   padding-left: 2rem;
   padding-bottom: 2rem;
 }
+.avatar-div + .avatar-div {
+margin-left: 2em;
+}
 
 .pictures-avatar {
   height: 6rem;

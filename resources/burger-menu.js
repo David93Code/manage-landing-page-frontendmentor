@@ -20,4 +20,5 @@ function hideBurgerMenu() {
   document.getElementById("nav-mobile").style.display = "none";
   document.getElementById("burger-background").style.display = "none";
   burger.src = "./resources/images/icon-hamburger.svg";
+  isBurger = true;
 }
