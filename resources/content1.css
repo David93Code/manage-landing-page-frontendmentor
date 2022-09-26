@@ -1,5 +1,4 @@
 .content-container {
-  border: 1px solid black;
   margin: 0;
 }
 .first-section-image {
@@ -23,11 +22,9 @@
   margin-right: 5rem;
   display: flex;
   justify-content: space-around;
-  border: 1px solid red;
 }
 
 .content-1 {
-  border: 1px solid red;
   /* width: 35%;   */
   /* padding-top: 2rem; */
   text-align: left;
@@ -49,16 +46,14 @@
   /* height: 35vh; */
   margin-bottom: 5rem;
   margin-right: 6rem;
-  border: 1px solid green;
 }
 
 .content-2 h3 {
   min-width: 370px;
-  border: 1px solid red;
 }
 
 .content-2 p {
-  border: 1px solid blue;
+
   width: 320px;
   line-height: 1.5rem;
   margin-left: 3rem;
@@ -92,7 +87,7 @@ h3:before {
   line-height: 1.6;
   color: #fff;
   font-size: 1em;
-  background: #f77621;
+  background: hsl(12, 88%, 59%, 100%);
 }
 
 .test {
@@ -129,7 +124,7 @@ h3:before {
   margin-right: 40%;
 }
 .image {
-  border: 1px solid green;
+ 
   width: 500px;
   height: 500px;
 }
@@ -210,7 +205,8 @@ h3:before {
 
   .manage-div h2 {
     margin-bottom: 2rem;
-    margin-right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .content-2 {
@@ -227,13 +223,19 @@ h3:before {
   .content-1 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    min-width: 200px;
+  }
+
+  .content-1 h1 {
+      font-size: 40px;
   }
 
   .content-2 h3 {
     background-color: hsl(12, 89%, 65%, 30%);
     /* background-position: right 200px; */
     width: 370px;
-    min-width: 40%;
+    /* min-width: 40%; */
     font-size: 17px;
     margin-left: 1rem;
     border-radius: 40px 0px 0 40px;
@@ -242,7 +244,37 @@ h3:before {
   .content-2 p {
     margin-left: 1rem;
     width: 200px;
-    min-width: 80%;
+    /* min-width: 80%; */
   }
 }
 
+@media only screen and (max-width: 375px) {
+
+    .content-1 h1 {
+        font-size: 30px;
+    }
+
+    .content-1 h2 {
+        font-size: 25px;
+        width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+       }
+
+    .content-2 h3 {
+        background-color: hsl(12, 89%, 65%, 30%);
+        /* background-position: right 200px; */
+        width: 200px;
+        /* min-width: 40%; */
+        font-size: 14.5px;
+        margin-left: .2rem;
+        border-radius: 40px 0px 0 40px;
+      }
+
+      .content-2 p {
+        margin-left: 1rem;
+        width: 200px;
+        font-size: 13px;
+        line-height: 1.2rem;
+      }
+}

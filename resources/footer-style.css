@@ -26,7 +26,7 @@ footer {
 }
 
 .social-logos {
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
 
 .social-logos svg {
@@ -134,14 +134,18 @@ input {
 
   .social-logos {
     width: 100%;
+    /* min-width: 250px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 2rem;
+   /* padding-right: 2rem;  */
   }
 
+
+
   svg {
-    scale: 2;
+    scale: 1.5;
   }
 
   .head-mobile {
@@ -157,7 +161,7 @@ input {
   }
 
   .footer-logo {
-    scale: 1.5;
+    scale: 1.2;
   }
 
   #copyright {
@@ -171,4 +175,24 @@ input {
     order: -1;
     text-align: center;
   }
+}
+
+.footer-list-div {
+    margin-left: -1rem;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+
+    
+    .social-logos svg{
+        margin-left: 0;
+
+    }
+
+    svg {
+        scale: 1.2;
+        margin-left: 0;
+    }
 }

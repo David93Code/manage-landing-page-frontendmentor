@@ -21,7 +21,7 @@
 .simplify button {
   height: 50px;
   width: 150px;
-  border-radius: 15% / 50%;
+  border-radius: 40px;
   background-color: white;
   color: hsl(12, 88%, 59%);
   border-width: 0px;

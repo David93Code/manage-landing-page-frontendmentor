@@ -34,7 +34,7 @@ header {
     padding-left: 6rem;
     padding-right: 6rem;
     padding-bottom: 3rem;
-    border: 1px solid red;
+  
     /* margin: 0;
     padding: 0; */
     
@@ -132,9 +132,7 @@ nav ul{
     display: none;
 }
 
-.burger-icons {
 
-}
 
 .burger-icons:hover {
     cursor: pointer;
