@@ -1,0 +1,48 @@
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  footer {
+    padding: 0;
+    height: 400px;
+  }
+
+  .head1 {
+    padding-left: 3rem;
+  }
+
+  .head2 {
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    padding-top: 2rem;
+    margin-left: 4rem;
+  }
+
+  .head3 {
+    margin-top: 2rem;
+    padding-right: 3rem;
+  }
+
+  .foot-list1 {
+    width: 150px;
+  }
+
+  .foot-list2 {
+    width: 150px;
+  }
+
+  .copy-div {
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .social-logos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .social-logos a {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+}

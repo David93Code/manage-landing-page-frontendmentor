@@ -1,59 +1,59 @@
 .simplify {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: hsl(12, 88%, 59%);
-    background-image: url(./images/bottom-tablet.svg), url(./images/bottom-tablet.svg);
-    background-repeat: no-repeat;
-    background-position: top -5rem left 5rem, top -41rem right -30rem;
-    height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(12, 88%, 59%);
+  background-image: url(./images/bottom-tablet.svg),
+    url(./images/bottom-tablet.svg);
+  background-repeat: no-repeat;
+  background-position: top -5rem left 5rem, top -41rem right -30rem;
+  height: 25vh;
 }
 
 .simplify h2 {
-    border: 1px solid red;
-    color: white;
-    width: 100%;
-    margin: 0;
-    padding-left: 5rem;
-    padding-right: 2rem;
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding-left: 5rem;
+  padding-right: 2rem;
 }
 
 .simplify button {
-    height: 50px;
-    width: 150px;
-    border-radius: 15% / 50%;
-    background-color: white;
-    color: hsl(12, 88%, 59%);
-    border-width: 0px;
-    padding: 0px;
-    margin-right: 3rem;
-    font-weight: 550;
-    box-shadow: 1px 5px 20px 1px hsl(14, 11%, 23%);
-    cursor: pointer;
+  height: 50px;
+  width: 150px;
+  border-radius: 40px;
+  background-color: white;
+  color: hsl(12, 88%, 59%);
+  border-width: 0px;
+  padding: 0px;
+  margin-right: 3rem;
+  font-weight: 550;
+  box-shadow: 1px 5px 20px 1px hsl(14, 11%, 23%);
+  cursor: pointer;
 }
 
 .simplify button:active {
-    color: hsl(12, 79%, 69%);
+  color: hsl(12, 79%, 69%);
 }
 
-@media only screen and (max-width:600px) {
-    .simplify {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-        height: 30vh;
-        background-position: top -5rem left 160%;
-    }
+@media only screen and (max-width: 600px) {
+  .simplify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+    background-position: top -5rem left 160%;
+  }
 
-    .simplify h2 {
-        text-align: center;
-        padding: 0;
-        margin: 0;
-        margin-bottom: 1rem;
-    }
+  .simplify h2 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
 
-    .simplify button {
-        margin-right: 0;
-    }
+  .simplify button {
+    margin-right: 0;
+  }
 }
